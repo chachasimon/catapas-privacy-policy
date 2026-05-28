@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - The Flowers Printer Company Tech</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #4f46e5;
+            --primary-hover: #4338ca;
+            --text-main: #111827;
+            --text-muted: #4b5563;
+            --bg-page: #f8fafc;
+            --bg-card: #ffffff;
+            --border: #e2e8f0;
+            --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.7;
+            color: var(--text-main);
+            background-color: var(--bg-page);
+        }
+
+        .navbar {
+            background-color: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem 10%;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-logo {
+            font-weight: 800;
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            letter-spacing: -0.025em;
+        }
+
+        .nav-links a {
+            margin-left: 2rem;
+            text-decoration: none;
+            color: var(--text-muted);
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.2s;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+
+        .hero {
+            padding: 6rem 10% 4rem;
+            text-align: center;
+            background: linear-gradient(180deg, #ffffff 0%, var(--bg-page) 100%);
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 900;
+            letter-spacing: -0.05em;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(to right, #4f46e5, #9333ea);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 1.25rem;
+            color: var(--text-muted);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto 6rem;
+            padding: 0 1.5rem;
+        }
+
+        .section-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+
+        .legal-card {
+            background: var(--bg-card);
+            padding: 2.5rem;
+            border-radius: 1.5rem;
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .legal-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .legal-card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .legal-card h2::before {
+            content: '';
+            width: 8px;
+            height: 24px;
+            background: var(--primary-color);
+            border-radius: 4px;
+        }
+
+        .legal-card p {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+        }
+
+        footer {
+            background: #111827;
+            color: #f3f4f6;
+            padding: 4rem 10%;
+            text-align: center;
+        }
+
+        footer .logo {
+            font-weight: 800;
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .contact-box {
+            background: #4f46e510;
+            border: 1px solid #4f46e530;
+            border-radius: 1rem;
+            padding: 2rem;
+            margin-top: 4rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            .navbar { padding: 1rem 5%; }
+            .nav-links { display: none; }
+        }
+    </style>
+
+</head>
+<body>
+
+<header class="navbar">
+    <div class="nav-logo">The Flowers Printer Co.</div>
+    <nav class="nav-links">
+        <a href="#policy-content">Privacy Policy</a>
+        <a href="#contact">Contact Support</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>Privacy Policy</h1>
+    <p>We are committed to protecting your personal information and your right to privacy. This policy covers services by <strong>The Flowers Printer Company Tech</strong> and our mobile applications.</p>
+</div>
+
+<div class="container" id="policy-content">
+    <div class="section-grid">
+        <div class="legal-card" style="border: 2px solid var(--primary-color);">
+            <h2 style="color: var(--primary-color);">The Flowers Printer Company Tech</h2>
+            <p><strong>General Policy:</strong> The Flowers Printer Company Tech is committed to ensuring the privacy and security of our clients' data. This section applies to all hardware maintenance, software diagnostic services, and printer technical support provided by our team.</p>
+            <p style="margin-top: 1rem;"><strong>Information Handling:</strong> We do not store any document data processed through the printers we service. Any technical logs gathered during diagnostic sessions are used strictly for troubleshooting and are purged upon completion of the service.</p>
+            <p style="margin-top: 1rem;"><strong>Client Confidentiality:</strong> All interactions between our technical staff and your printing infrastructure are handled with strict confidentiality protocols.</p>
+        </div>
+
+        <div class="legal-card">
+            <h2>Data Collection</h2>
+            <p>Catapult Hole Shot does not collect or transmit any personally identifiable information from your device.</p>
+        </div>
+
+        <div class="legal-card">
+            <h2>Local Storage</h2>
+            <p>Game scores and settings are stored locally on your device's memory. This data is not shared with any third-party servers.</p>
+        </div>
+
+        <div class="legal-card">
+            <h2>Internet Usage</h2>
+            <p>The current version of the game does not require an internet connection for gameplay. Future updates may include optional online features.</p>
+        </div>
+
+        <div class="legal-card">
+            <h2>User Privacy</h2>
+            <p>We value your privacy. We do not sell, trade, or otherwise transfer your information to outside parties.</p>
+        </div>
+
+        <div class="legal-card">
+            <h2>Security</h2>
+            <p>Your game data is protected by the standard security features of your mobile operating system.</p>
+        </div>
+
+        <div class="legal-card">
+            <h2>Policy Changes</h2>
+            <p>This privacy policy may be updated periodically. We will notify you of any changes by posting the new policy on this page.</p>
+        </div>
+
+        <div class="legal-card contact-box" id="contact">
+            <h2>Contact Information</h2>
+            <p>If you have questions about this policy, please contact us through our official support channels.<br><br><strong>Game:</strong> Catapult Hole Shot</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <span class="logo">The Flowers Printer Company Tech</span>
+    <p>&copy; 2024. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
